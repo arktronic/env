@@ -1,0 +1,10 @@
+[alias]
+	p = pull
+	s = status
+	d = diff
+	co = checkout
+	cob = checkout -b
+	pu = !git push -u origin `git branch --show-current`
+	up = "!f() { git fetch -p && git rebase origin/${1}; }; f"
+	gone = "!git fetch -p && git branch -vv | grep ': gone]' | grep -v '\\*' | awk '{ print $1; }' | xargs -r git branch -D"
+	new = "!(git co main || git co master) && git gone && git pull"
