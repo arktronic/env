@@ -1,1 +1,1 @@
-# Dev environment setup stuff
+# Environment setup stuff
