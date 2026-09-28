@@ -1,0 +1,12 @@
+ide/
+installed-plugins/
+logs/
+mcp-oauth-config/
+mcp-secrets/
+permissions-config.json
+plugin-data/
+providers.json
+session-state/
+command-history-state/
+session-store.db
+session-store.db*
