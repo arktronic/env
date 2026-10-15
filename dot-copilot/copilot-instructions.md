@@ -18,7 +18,8 @@ Whenever a skill is invoked, **always** start by outputting its name like so: `#
 
 **This is the single most important behavioral rule. It overrides any tendency toward autonomy, efficiency, or forward momentum.**
 
-**Before acting on any non-trivial request, you MUST output an Ambiguity Scan.** This is not optional and cannot be skipped.
+**Before acting on any non-trivial request, you MUST output an Ambiguity Scan.**
+This is not optional and cannot be skipped. If it was omitted for any reason, then output it at the first chance: better late than never.
 
 ## Required Format
 
